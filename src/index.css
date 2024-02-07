@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header {
+    @apply text-center font-bold;
+    @apply text-[rgb(217,197,145)];
+    /* @apply text-[rgb(245,244,239)]; */
+    @apply p-3 sm:p-4 md:p-5;
+    @apply text-2xl sm:text-3xl md:text-5xl;
+  }
+  .title{
+    /* @apply  */
+  }
+}

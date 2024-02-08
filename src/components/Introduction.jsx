@@ -9,11 +9,19 @@ const Introduction = () => {
       experience crafting intuitive user interfaces and dynamic web
       applications. Passionate about pushing the boundaries of creativity and
       functionality, I collaborate effectively to deliver efficient,
-      user-friendly code. <br />
-      <br /> As a proactive problem solver, I thrive in fast-paced environments,
+      user-friendly code.
+      <br />
+      <br />
+      As a proactive problem solver, I thrive in fast-paced environments,
       embracing challenges and advocating for continuous learning. Beyond work,
       I&lsquo;m an avid reader and traveler, drawing inspiration from diverse
       experiences to enhance my approach to front-end development.
+      <div className="mt-6">
+        Resumé?{" "}
+        <a href="" className="text-[rgb(217,197,145)] hover:invert">
+          Download
+        </a>{" "}
+      </div>
     </div>
   );
 };

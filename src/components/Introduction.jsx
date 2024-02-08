@@ -24,6 +24,7 @@ const Introduction = () => {
         <a
           href="https://drive.google.com/file/d/1hbkwG4_wMl8TwW-ZLsDV_C2eKu8WC_A7/view?usp=drive_link"
           className="text-[rgb(217,197,145)] hover:invert"
+          target="_blank" rel="noreferrer"
           download="Hammed Bello.pdf"
         >
           <img src="src/assets/resume/Hammed Bello.pdf" alt="" />

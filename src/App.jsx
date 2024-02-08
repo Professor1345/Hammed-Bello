@@ -1,12 +1,29 @@
 // import React from 'react'
 
-import Header from "./components/Header";
+import {
+  AdditionalInfo,
+  Contact,
+  Education,
+  Experience,
+  Header,
+  Introduction,
+  Projects,
+  Skills,
+} from "./components";
+
+// import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div className="bg-[rgb(45,44,41)] min-h-screen font-poppins">
+    <div className="text-[rgb(245,244,239)] bg-[rgb(45,44,41)] min-h-screen font-poppins">
       <Header />
-      <hr />
+      <Introduction />
+      <Skills />
+      <Education />
+      <Experience />
+      <Projects />
+      <AdditionalInfo />
+      <Contact />
     </div>
   );
 };

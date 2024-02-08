@@ -5,10 +5,13 @@ const Introduction = () => {
     <div className="intro">
       {/* <h2 className="introHeader">Introduction</h2> */}
       <h2 className="py-3 text-lg">Who am I?</h2>
-      I&lsquo;m Hammed Bello, a seasoned Front End Engineer with 5+ years of
-      experience crafting intuitive user interfaces and dynamic web
-      applications. Passionate about pushing the boundaries of creativity and
-      functionality, I collaborate effectively to deliver efficient,
+      I&lsquo;m Hammed Bello, a seasoned{" "}
+      <span className="bg-[rgb(245,244,239)] text-[rgb(45,44,41)]">
+        Front End Engineer
+      </span>{" "}
+      with 5+ years of experience crafting intuitive user interfaces and dynamic
+      web applications. Passionate about pushing the boundaries of creativity
+      and functionality, I collaborate effectively to deliver efficient,
       user-friendly code.
       <br />
       <br />
@@ -19,9 +22,11 @@ const Introduction = () => {
       <div className="mt-6">
         Resumé?{" "}
         <a
-          href="/assets/resume/Hammed Bello.pdf"
+          href="src/assets/resume/Hammed Bello.pdf"
           className="text-[rgb(217,197,145)] hover:invert"
-        download>
+          download="Hammed Bello"
+        >
+          <img src="src/assets/resume/Hammed Bello.pdf" alt="" />
           Download
         </a>{" "}
       </div>

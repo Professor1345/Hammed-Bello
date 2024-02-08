@@ -37,9 +37,10 @@
   }
   .skillContainer {
     @apply flex justify-center flex-wrap;
-    @apply py-6;
+    @apply py-6 px-4;
   }
   .skillContent {
+    @apply cursor-pointer;
     @apply px-[6px];
     @apply m-[6px];
     @apply border-2 border-solid rounded-md;

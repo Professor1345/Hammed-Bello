@@ -18,7 +18,10 @@ const Introduction = () => {
       experiences to enhance my approach to front-end development.
       <div className="mt-6">
         Resumé?{" "}
-        <a href="" className="text-[rgb(217,197,145)] hover:invert">
+        <a
+          href="/assets/resume/Hammed Bello.pdf"
+          className="text-[rgb(217,197,145)] hover:invert"
+        >
           Download
         </a>{" "}
       </div>

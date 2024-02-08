@@ -15,7 +15,7 @@ import {
 
 const App = () => {
   return (
-    <div className="text-[rgb(245,244,239)] bg-[rgb(45,44,41)] min-h-screen font-poppins">
+    <div className="text-[rgb(245,244,239)] bg-[rgb(45,44,41)] min-h-screen font-poppins border-x-2 border-solid">
       <Header />
       <Introduction />
       <Skills />

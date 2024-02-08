@@ -13,7 +13,7 @@
     /* @apply text-[rgb(245,244,239)]; */
     @apply p-3 sm:p-4 md:p-5;
     @apply text-2xl sm:text-3xl md:text-5xl;
-    @apply border-b-2 border-solid;
+    @apply border-y-2 border-solid;
   }
   .title {
     /* @apply  */

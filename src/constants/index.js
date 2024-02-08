@@ -40,6 +40,16 @@ export const Skill = [
   },
 
   {
+    id: "axios",
+    title: "AXIOS",
+  },
+
+  {
+    id: "api",
+    title: "API",
+  },
+
+  {
     id: "fontawe",
     title: "FONT AWESOME",
   },
@@ -48,6 +58,8 @@ export const Skill = [
     id: "json",
     title: "JSON",
   },
+
+  
 
   {
     id: "firebase",

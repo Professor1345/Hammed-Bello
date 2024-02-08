@@ -65,6 +65,16 @@ export const Skill = [
   },
 
   {
+    id: "vercel",
+    title: "VERCEL",
+  },
+
+  {
+    id: "netlify",
+    title: "NETLIFY",
+  },
+
+  {
     id: "tailwindcss",
     title: "TAILWIND CSS",
   },

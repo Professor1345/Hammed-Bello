@@ -19,7 +19,7 @@ const Introduction = () => {
       <div className="mt-6">
         Resumé?{" "}
         <a
-          href="/assets/resume/Hammed_Bello.pdf"
+          href="/assets/resume/Hammed Bello.pdf"
           className="text-[rgb(217,197,145)] hover:invert"
         download>
           Download

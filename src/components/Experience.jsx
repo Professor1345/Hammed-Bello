@@ -2,8 +2,10 @@
 
 const Experience = () => {
   return (
-    <div>Experience</div>
-  )
-}
+    <div>
+      <h2 className="experienceHeader">Experience</h2>
+    </div>
+  );
+};
 
-export default Experience
+export default Experience;

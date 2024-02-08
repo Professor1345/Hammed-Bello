@@ -1,6 +1,22 @@
 // import React from 'react'
 
 const Introduction = () => {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch("src/assets/resume/Hammed Bello.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Hammed Bello.pdf";
+        alink.click();
+      });
+    });
+  };
+
   return (
     <div className="intro">
       {/* <h2 className="introHeader">Introduction</h2> */}
@@ -21,14 +37,15 @@ const Introduction = () => {
       experiences to enhance my approach to front-end development.
       <div className="mt-6">
         Resumé?{" "}
-        <a
-          href="src/assets/resume/Hammed Bello.pdf"
+        <button
+          onClick={onButtonClick}
+          //   href="src/assets/resume/Hammed Bello.pdf"
           className="text-[rgb(217,197,145)] hover:invert"
-          download="Hammed Bello"
+          //   download="Hammed Bello"
         >
-          <img src="src/assets/resume/Hammed Bello.pdf" alt="" />
+          {/* <img src="src/assets/resume/Hammed Bello.pdf" alt="" /> */}
           Download
-        </a>{" "}
+        </button>{" "}
       </div>
     </div>
   );

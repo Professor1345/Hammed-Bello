@@ -59,8 +59,6 @@ export const Skill = [
     title: "JSON",
   },
 
-  
-
   {
     id: "firebase",
     title: "FIREBASE",

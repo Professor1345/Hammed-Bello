@@ -1,6 +1,5 @@
 // import React from 'react'
 import resume from "../assets/resume/Hammed Bello.pdf";
-import img from "../assets/react tt.svg"
 const Introduction = () => {
   return (
     <div className="intro">
@@ -25,10 +24,10 @@ const Introduction = () => {
         <a
           href={resume}
           className="text-[rgb(217,197,145)] hover:invert"
-          target="_blank" rel="noreferrer"
-          download="Hammed Bello"
+          target="_blank"
+          rel="noreferrer"
+          download="Hammed Bello.pdf"
         >
-          <img src={img} alt="" />
           Download
         </a>{" "}
       </div>

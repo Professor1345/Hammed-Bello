@@ -1,5 +1,6 @@
 // import React from 'react'
-
+import resume from "../assets/resume/Hammed Bello.pdf";
+import img from "../assets/react tt.svg"
 const Introduction = () => {
   return (
     <div className="intro">
@@ -22,12 +23,12 @@ const Introduction = () => {
       <div className="mt-6">
         Resumé?{" "}
         <a
-          href="src/assets/react tt.svg"
+          href={resume}
           className="text-[rgb(217,197,145)] hover:invert"
           target="_blank" rel="noreferrer"
-          download="Hammed Bello.pdf"
+          download="Hammed Bello"
         >
-          <img src="src/assets/react tt.svg" alt="" />
+          <img src={img} alt="" />
           Download
         </a>{" "}
       </div>

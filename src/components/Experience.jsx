@@ -15,7 +15,7 @@ const Experience = () => {
               <span>({expr.employStatus})</span>
             </div>
             <div className="compDuration">
-              @ <span className="font-bold mx-1">{expr.company}</span>{" "}
+               <span className="font-bold mr-1">@ {expr.company}</span>{" "}
               <span className="font-semibold">[{expr.period}]</span>
             </div>
             {/* Details */}

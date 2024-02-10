@@ -119,3 +119,72 @@ export const Skill = [
     title: "TEAM COLLABORATION",
   },
 ];
+
+export const workExperience = [
+  {
+    role: "Front End Engineer",
+    employStatus: "Full Time",
+    company: "Maxim Organisation",
+    period: "May 2019 - Date",
+    details: [
+      "Design, develop, and maintain web applications and solutions required for the company's limited activities.",
+      "Provide technical assistance and troubleshooting for existing software systems and address any issues that may arise in the company's minimal operations.",
+      "Participate in discussions related to the selection of appropriate technologies and tools for the startup's specific needs and future scalability.",
+      "Work closely with other team members, wear multiple hats as needed, and be adaptable to support various aspects of the startup's activities beyond just software development.",
+    ],
+  },
+
+  {
+    role: "Supervisor of ICT Department",
+    employStatus: "Full Time",
+    company: "De-Gifted Private School",
+    period: "March 2023 - December 2023",
+    details: [
+      "Manage and maintain the school's ICT infrastructure, including computer systems and network equipment",
+      "Provide training for students and technical support to teachers and staff for effective use of ICT tools in learning, teaching and administration.",
+      "Develop and enforce ICT policies, ensuring data security and compliance with relevant regulations.",
+      "Integrate technology into the curriculum, collaborating with educators to enhance the learning experience.",
+      "Effectively supervised and maintained the operations and performance standards of Computer-Based Testing (CBT) examinations.",
+      "Budgeting and procurement of ICT resources, staying informed about emerging technologies for future planning",
+    ],
+  },
+
+  {
+    role: "Front End Engineer",
+    employStatus: "Contract",
+    company: "Cesa Unilorin",
+    period: "January 2022 - December 2022",
+    details: [
+      "Conceptualize, design, and maintain the user interface and experience of the blog's web platform to ensure seamless navigation and engagement.",
+      "Provide technical expertise and resolve frontend-related issues to optimize the functionality and performance of the blog's interface.",
+      "Contribute insights to discussions concerning frontend technologies and tools selection, tailored to enhance the blog's user experience and scalability.",
+      "Collaborate closely with cross-functional teams, adapting to multifaceted roles as required to support various initiatives of Cesa Unilorin Blog beyond frontend development.",
+    ],
+  },
+
+  {
+    role: "Computer Engineer",
+    employStatus: "Intern",
+    company: "ABDEB Computer Engineering Institute",
+    period: "March 2018 - April 2019",
+    details: [
+      "Engaged in hands-on learning opportunities and gained practical experience in computer engineering concepts and techniques.",
+      "Supported senior engineers in their projects, tasks, and day to day activities, contributing to the institute's ongoing projects.",
+      "Assisted in testing and troubleshooting computer hardware and software components to ensure their proper functioning and reliability.",
+    ],
+  },
+
+  {
+    role: "Computer Technician & Operator",
+    employStatus: "Full Time",
+    company: "Mabel Computer Center",
+    period: "February 2012 - December 2018",
+    details: [
+      "Monitored the computer systems and network in the computer Centre to ensure their smooth and efficient operation.",
+      "Performed routine maintenance tasks, such as backups, software updates, and system checks, to ensure the reliability and security of the systems.",
+      "Provided basic technical support to users in the computer centre, assisting with simple issues and directing more complex problems to higher-level support if needed.",
+    ],
+  },
+];
+
+export const Project = [{ id: "sneakers", title: "Sneakers - Ecommerce Web App", details: ""  }];

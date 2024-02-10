@@ -2,7 +2,9 @@
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div>
+        <h2 className="proHeader">Projects</h2>
+    </div>
   )
 }
 

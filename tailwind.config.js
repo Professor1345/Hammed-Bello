@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        leagueSpartan : ['League Spartan', 'sans-serif']
+        leagueSpartan : ['League Spartan', 'sans-serif'],
+        Grandstander : ['Grandstander', 'cursive']
       },
     },
     screens: {
@@ -16,6 +17,7 @@ export default {
       xs: "480px",
       ss: "620px",
       sm: "768px",
+      '2sm': "992px",
       md: "1060px",
       lg: "1200px",
       xl: "1700px",

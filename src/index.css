@@ -2,11 +2,23 @@
 
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
+  * {
+    @apply box-border;
+  }
+
+  /* 
+  ///////////////////
+  HEADER
+  ///////////////////
+  */
+
   .header {
     @apply text-center font-bold;
     @apply text-[rgb(217,197,145)];
@@ -14,6 +26,7 @@
     @apply p-3 sm:p-4 md:p-5;
     @apply text-2xl sm:text-3xl md:text-5xl;
     @apply border-y-2 border-solid;
+    /* @apply font-Grandstander; */
   }
   .title {
     /* @apply  */
@@ -27,6 +40,12 @@
     /* @apply border-y-2 border-solid; */
   }
 
+  /* 
+  ///////////////////
+  SKILLS
+  ///////////////////
+  */
+
   .skillsHeader {
     @apply uppercase;
     /* @apply pt-12 !important; */
@@ -35,19 +54,26 @@
     @apply text-center font-bold;
     @apply border-y-2 border-solid;
   }
-  .skillContainer {
+  .skillsContainer {
     @apply flex justify-center flex-wrap;
     @apply py-6 px-4;
   }
-  .skillContent {
+  .skillsContent {
     @apply cursor-pointer;
     @apply px-[6px];
     @apply m-[6px];
     @apply border-2 border-solid rounded-md;
     @apply text-center;
     @apply text-[15px] md:text-base;
-    @apply hover:invert;
+    /* @apply hover:invert; */
+    @apply hover:text-[rgb(45,44,41)] hover:bg-[rgb(245,244,239)] hover:duration-300;
   }
+
+  /* 
+  ///////////////////
+  EDUCATION
+  ///////////////////
+  */
 
   .educationHeader {
     @apply uppercase;
@@ -58,7 +84,49 @@
     @apply border-y-2 border-solid;
   }
 
+  /* 
+  ///////////////////
+  EXPERIENCE
+  ///////////////////
+  */
+
   .experienceHeader {
+    @apply uppercase;
+    /* @apply pt-12 !important; */
+    @apply p-3 sm:p-2  md:p-2;
+    @apply text-xl sm:text-2xl md:text-3xl;
+    @apply text-center font-bold;
+    @apply border-y-2 border-solid;
+  }
+
+  .experienceContainer {
+    @apply flex flex-wrap;
+    @apply py-6 px-4;
+  }
+  .expContent {
+    @apply w-full 2sm:w-[calc(50%_-_1.5rem)] md:w-[calc(33.3%_-_1.5rem)];
+    @apply p-4 m-3;
+    @apply border-2 border-solid;
+    @apply hover:text-[rgb(45,44,41)] hover:bg-[rgb(245,244,239)] duration-300;
+    /* @apply min-h-[492px]; */
+    /* @apply box-content; */
+  }
+
+  .expConHeader {
+    @apply flex flex-wrap items-center font-bold;
+  }
+
+  .compDuration {
+    @apply flex flex-wrap my-1;
+  }
+
+  /* 
+  ///////////////////
+  PROJECTS
+  ///////////////////
+  */
+
+  .proHeader {
     @apply uppercase;
     /* @apply pt-12 !important; */
     @apply p-3 sm:p-2  md:p-2;

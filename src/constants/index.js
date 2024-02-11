@@ -187,4 +187,158 @@ export const workExperience = [
   },
 ];
 
-export const Project = [{ id: "sneakers", title: "Sneakers - Ecommerce Web App", details: ""  }];
+export const Project = [
+  {
+    id: "sneakers",
+    title: "Sneakers - Ecommerce Web App",
+    link: "http://sneakkers.vercel.app/",
+    details:
+      "It is an ecommerce platform specializing in the sale of sneakers. One standout feature of this web app is, its ability to retain items in the cart even after closing the browser. This convenient functionality allows users to add items to their cart and pick up where they left off at a later time, without losing their selections. \n It is built using modern web development technologies, including ReactJS, TailwindCSS, Vite, and localStorage.",
+    tools: [
+      "ReactJS",
+      "TailwindCSS",
+      "Vite",
+      "Git",
+      "Github",
+      "Javascript",
+      "localStorage",
+      "Vercel",
+    ],
+  },
+
+  {
+    id: "hoobank",
+    title: "HooBank Web App",
+    link: "https://hobank.vercel.app/",
+    details:
+      "This web app provides insights into financial operations and payment methods. Through their platform, users gain clarity on managing finances and selecting suitable payment methods.",
+    tools: [
+      "ReactJS",
+      "TailwindCSS",
+      "Vite",
+      "Git",
+      "Github",
+      "Javascript",
+      "Vercel",
+    ],
+  },
+
+  {
+    id: "tempbased",
+    title: "Temperature-Based Door Access Control System Database",
+    link: "https://tempbased.netlify.app/",
+    details:
+      "This real-time database serves as the backbone for the Temperature-Based Door Access Control System. It facilitates seamless monitoring and management of access control based on temperature parameters, ensuring security and safety protocols are upheld in real-time.",
+    tools: [
+      "ReactJS",
+      "TailwindCSS",
+      "Git",
+      "Github",
+      "Javascript",
+      "Netlify",
+      "Firebase",
+    ],
+  },
+
+  {
+    id: "loopstudios",
+    title: "Loop Studios Portfolio Web App",
+    link: "https://looop-studios.netlify.app/",
+    details:
+      "It is renowned for crafting cutting-edge virtual reality projects for leading global companies. The portfolio boasts award-winning creations that have revolutionized businesses by delivering immersive digital experiences intricately aligned with their brand identities.",
+    tools: [
+      "HTML",
+      "TailwindCSS",
+      "Git",
+      "Github",
+      "Javascript",
+      "Font Awesome",
+      "Netlify",
+    ],
+  },
+
+  {
+    id: "manage",
+    title: "Manage Portfolio Web App",
+    link: "https://mannage.vercel.app/",
+    details:
+      "It facilitates seamless collaboration among software teams, fostering improved product development. By unifying team efforts, it simplifies task planning while maintaining visibility of overarching objectives.",
+    tools: [
+      "HTML",
+      "TailwindCSS",
+      "Git",
+      "Github",
+      "Javascript",
+      "Font Awesome",
+      "Vercel",
+    ],
+  },
+
+  {
+    id: "taskive",
+    title: "Taskive Web App",
+    link: "https://taskive.vercel.app/",
+    details:
+      "It is a web application that effectively logs your to-do list activities. Even upon closing the application, your saved tasks persist and are readily available upon reopening.",
+    tools: [
+      "HTML",
+      "TailwindCSS",
+      "Git",
+      "Github",
+      "Javascript",
+      "JSON",
+      "localStorage",
+      "Vercel",
+    ],
+  },
+
+  {
+    id: "room",
+    title: "Room Web App",
+    link: "https://roooom.netlify.app/",
+    details:
+      "It offers a diverse collection of furniture, spanning traditional to contemporary styles, to suit individual tastes. Customers can receive assistance from product specialists to create their ideal space.",
+    tools: [
+      "HTML",
+      "TailwindCSS",
+      "Git",
+      "Github",
+      "Javascript",
+      "Font Awesome",
+      "Netlify",
+    ],
+  },
+
+  {
+    id: "cesaunilorin",
+    title: "Room Web App",
+    link: "https://roooom.netlify.app/",
+    details:
+      "It offers a diverse collection of furniture, spanning traditional to contemporary styles, to suit individual tastes. Customers can receive assistance from product specialists to create their ideal space.",
+    tools: [
+      "HTML",
+      "CSS",
+      "Git",
+      "Github",
+      "Javascript",
+      "Font Awesome",
+      "Netlify",
+    ],
+  },
+
+  {
+    id: "mousearound",
+    title: "Room Web App",
+    link: "https://roooom.netlify.app/",
+    details:
+      "It offers a diverse collection of furniture, spanning traditional to contemporary styles, to suit individual tastes. Customers can receive assistance from product specialists to create their ideal space.",
+    tools: [
+      "HTML",
+      "CSS",
+      "Git",
+      "Github",
+      "Javascript",
+      "Netlify",
+    ],
+  },
+];

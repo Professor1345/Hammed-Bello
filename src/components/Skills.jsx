@@ -7,7 +7,7 @@ const Skills = () => {
     <div>
       <h2 className="skillsHeader">Skills</h2>
       <div className="skillsContainer">
-        {Skill.map((skill, index) => (
+        {Skill.map((skill) => (
           <div key={skill.id}>
             <div className="skillsContent">{skill.title}</div>
           </div>

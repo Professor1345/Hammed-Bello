@@ -145,7 +145,7 @@ export const workExperience = [
       "Develop and enforce ICT policies, ensuring data security and compliance with relevant regulations.",
       "Integrate technology into the curriculum, collaborating with educators to enhance the learning experience.",
       "Effectively supervised and maintained the operations and performance standards of Computer-Based Testing (CBT) examinations.",
-      "Budgeting and procurement of ICT resources, staying informed about emerging technologies for future planning",
+    //   "Budgeting and procurement of ICT resources, staying informed about emerging technologies for future planning",
     ],
   },
 
@@ -193,7 +193,7 @@ export const Project = [
     title: "Sneakers - Ecommerce Web App",
     link: "http://sneakkers.vercel.app/",
     details:
-      "It is an ecommerce platform specializing in the sale of sneakers. One standout feature of this web app is, its ability to retain items in the cart even after closing the browser. This convenient functionality allows users to add items to their cart and pick up where they left off at a later time, without losing their selections. \n It is built using modern web development technologies, including ReactJS, TailwindCSS, Vite, and localStorage.",
+      "It is an ecommerce platform specializing in the sale of sneakers. One standout feature of this web app is, its ability to retain items in the cart even after closing the browser. This convenient functionality allows users to add items to their cart and pick up where they left off at a later time, without losing their selections.",
     tools: [
       "ReactJS",
       "TailwindCSS",
@@ -211,7 +211,7 @@ export const Project = [
     title: "HooBank Web App",
     link: "https://hobank.vercel.app/",
     details:
-      "This web app provides insights into financial operations and payment methods. Through their platform, users gain clarity on managing finances and selecting suitable payment methods.",
+      "This web app provides insights into financial operations and payment methods. Through our platform, users gain clarity on managing finances and selecting suitable payment methods. Our innovative approach simplifies complex financial decisions, empowering users to make informed choices about their money.",
     tools: [
       "ReactJS",
       "TailwindCSS",
@@ -311,34 +311,23 @@ export const Project = [
 
   {
     id: "cesaunilorin",
-    title: "Room Web App",
-    link: "https://roooom.netlify.app/",
+    title: "Cesa Unilorin Website",
+    link: "https://www.cesaunilorin.com.ng/",
     details:
-      "It offers a diverse collection of furniture, spanning traditional to contemporary styles, to suit individual tastes. Customers can receive assistance from product specialists to create their ideal space.",
-    tools: [
-      "HTML",
-      "CSS",
-      "Git",
-      "Github",
-      "Javascript",
-      "Font Awesome",
-      "Netlify",
-    ],
+      "It is a feature-rich website offering blog posts, a gallery of memorable moments, and a complete materials section for students. Users can also connect with the organization's executives and explore additional functionalities.",
+    tools: ["HTML", "CSS", "Javascript"],
   },
 
   {
     id: "mousearound",
-    title: "Room Web App",
-    link: "https://roooom.netlify.app/",
+    title: "Mouse Around Personal Website",
+    link: "https://mouse-around.netlify.app/",
     details:
-      "It offers a diverse collection of furniture, spanning traditional to contemporary styles, to suit individual tastes. Customers can receive assistance from product specialists to create their ideal space.",
-    tools: [
-      "HTML",
-      "CSS",
-      "Git",
-      "Github",
-      "Javascript",
-      "Netlify",
-    ],
+      "It is a personal project designed to test my JavaScript skills. In this project, I replace the default cursor with a custom-made one that retains all the functionalities of the normal cursor and goes a step further by inverting the colors of the content beneath it.",
+    tools: ["HTML", "CSS", "Git", "Github", "Javascript", "Netlify"],
   },
 ];
+
+export const info = [
+    {},
+]

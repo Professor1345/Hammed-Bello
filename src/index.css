@@ -108,6 +108,7 @@
     @apply p-4 m-3;
     @apply border-2 border-solid;
     @apply hover:text-[rgb(45,44,41)] hover:bg-[rgb(245,244,239)] duration-300;
+    @apply hover:scale-105;
     /* @apply min-h-[492px]; */
     /* @apply box-content; */
   }
@@ -133,5 +134,102 @@
     @apply text-xl sm:text-2xl md:text-3xl;
     @apply text-center font-bold;
     @apply border-y-2 border-solid;
+  }
+
+  .proContainer {
+    @apply flex flex-wrap;
+    @apply py-6 px-4;
+  }
+  .proContent {
+    @apply w-full 2sm:w-[calc(50%_-_1.5rem)] md:w-[calc(33.3%_-_1.5rem)];
+    @apply p-4 m-3;
+    @apply border-2 border-solid;
+    @apply hover:text-[rgb(45,44,41)] hover:bg-[rgb(245,244,239)] duration-300;
+    @apply hover:scale-105;
+    @apply flex flex-row;
+  }
+  .proIndexLine {
+    @apply hidden sm:flex flex-col;
+    @apply group-hover:invert font-semibold text-[rgb(245,244,239)];
+    @apply mr-3;
+  }
+  .proIndex {
+    @apply block self-baseline rounded-full;
+    @apply border-2 border-solid;
+    @apply py-1 px-4;
+  }
+
+  .proLine {
+    @apply static self-center mt-3 bg-[rgb(245,244,239)] w-[2px] h-full z-50;
+  }
+
+  .proToolsContainer {
+    @apply flex flex-row flex-wrap;
+    @apply py-[2px];
+    @apply my-1;
+  }
+
+  .proTool {
+    @apply cursor-pointer;
+    @apply px-1;
+    @apply my-[2px];
+    @apply mx-[2px];
+    @apply first-of-type:ml-0;
+    @apply border-2 border-solid rounded-md;
+    @apply text-center;
+    @apply text-sm sm:text-sm md:text-sm;
+    /* @apply hover:invert; */
+    @apply hover:text-[rgb(245,244,239)] hover:bg-[rgb(45,44,41)] hover:duration-300;
+  }
+  .proLink {
+    @apply border-2 border-solid rounded-md;
+    @apply my-[2px] self-baseline;
+    @apply hover:text-[rgb(245,244,239)] hover:bg-[rgb(45,44,41)] hover:duration-300;
+    @apply px-2;
+    @apply justify-center;
+  }
+
+  .proLink:hover .proLinkMarginHover {
+    @apply ml-2;
+  }
+
+  /* 
+  ///////////////////
+  ADDITIONAL INFO
+  ///////////////////
+  */
+
+  .addInfoHeader {
+    @apply uppercase;
+    /* @apply pt-12 !important; */
+    @apply p-3 sm:p-2  md:p-2;
+    @apply text-xl sm:text-2xl md:text-3xl;
+    @apply text-center font-bold;
+    @apply border-y-2 border-solid;
+  }
+
+  .addInfoContainer {
+    @apply flex flex-wrap;
+    @apply py-6 px-4;
+  }
+
+  /* 
+  ///////////////////
+  CONTACT
+  ///////////////////
+  */
+
+  .contactHeader {
+    @apply uppercase;
+    /* @apply pt-12 !important; */
+    @apply p-3 sm:p-2  md:p-2;
+    @apply text-xl sm:text-2xl md:text-3xl;
+    @apply text-center font-bold;
+    @apply border-y-2 border-solid;
+  }
+
+  .contactContent {
+    @apply flex flex-wrap;
+    @apply py-6 px-4;
   }
 }

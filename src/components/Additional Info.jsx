@@ -2,8 +2,11 @@
 
 const AdditionalInfo = () => {
   return (
-    <div>AdditionalInfo</div>
-  )
-}
+    <div>
+      <h2 className="addInfoHeader">Additional Information</h2>
+      <div className="addInfoContainer"></div>
+    </div>
+  );
+};
 
-export default AdditionalInfo
+export default AdditionalInfo;

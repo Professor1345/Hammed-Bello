@@ -1,5 +1,5 @@
 // import React from 'react'
-import resume from "../assets/resume/Hammed Bello.pdf";
+import resume from "../assets/resume/Hammed Bello CV.pdf";
 const Introduction = () => {
   return (
     <div className="intro">
@@ -31,7 +31,7 @@ const Introduction = () => {
           Download
         </a>{" "} / {" "}
         <a
-          href="https://drive.google.com/file/d/1hbkwG4_wMl8TwW-ZLsDV_C2eKu8WC_A7/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1ialGhnAGCC6mn6XxjbpQAkzO8hM5jEWE/view?usp=drive_link"
           className="text-[rgb(217,197,145)] hover:invert"
           target="_blank"
           rel="noreferrer"

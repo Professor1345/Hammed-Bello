@@ -319,6 +319,23 @@ export const Project = [
   },
 
   {
+    id: "sunnyside",
+    title: "Sunnyside Landing Page Web App",
+    link: "https://sunny-sidee.netlify.app/",
+    details:
+      "It is a full-service creative agency specializing in brand transformation and rapid growth. Collaboratively delivering compelling visuals and high-quality photography, we empower brands to thrive in the digital landscape. Focused on engagement and attention to detail, we elevate brand identities and drive success.",
+    tools: [
+      "HTML",
+      "TailwindCSS",
+      "Git",
+      "Github",
+      "Javascript",
+      "Font Awesome",
+      "Netlify",
+    ],
+  },
+
+  {
     id: "mousearound",
     title: "Mouse Around Personal Website",
     link: "https://mouse-around.netlify.app/",

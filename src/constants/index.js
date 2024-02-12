@@ -145,7 +145,7 @@ export const workExperience = [
       "Develop and enforce ICT policies, ensuring data security and compliance with relevant regulations.",
       "Integrate technology into the curriculum, collaborating with educators to enhance the learning experience.",
       "Effectively supervised and maintained the operations and performance standards of Computer-Based Testing (CBT) examinations.",
-    //   "Budgeting and procurement of ICT resources, staying informed about emerging technologies for future planning",
+      //   "Budgeting and procurement of ICT resources, staying informed about emerging technologies for future planning",
     ],
   },
 
@@ -328,6 +328,33 @@ export const Project = [
   },
 ];
 
-export const info = [
-    {},
-]
+export const info = [{}];
+
+export const contactDetails = [
+  //   { id: "number", title: "Mobile I.D", link: "+234 81 3952 0278" },
+  {
+    id: "email",
+    title: "Email",
+    link: "alfulaani1345@gmail.com",
+    openLink: "mailto:alfulaani1345@gmail.com",
+  },
+  //   { id: "facebook", title: "Facebook", link: "https://facebook.com/alfulaaniy" },
+  {
+    id: "twitter",
+    title: "Twitter",
+    link: "https://twitter.com/javanotscript",
+    openLink: "https://twitter.com/javanotscript",
+  },
+  {
+    id: "linkedin",
+    title: "LinkedIn",
+    link: "https://www.linkedin.com/in/bello-hammed-752854151",
+    openLink: "https://www.linkedin.com/in/bello-hammed-752854151",
+  },
+  {
+    id: "github",
+    title: "Github",
+    link: "https://github.com/Professor1345",
+    openLink: "https://github.com/Professor1345",
+  },
+];

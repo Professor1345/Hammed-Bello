@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import {
-  AdditionalInfo,
+  // AdditionalInfo,
   Contact,
   Education,
   Experience,
@@ -22,7 +22,7 @@ const App = () => {
       <Education />
       <Experience />
       <Projects />
-      <AdditionalInfo />
+      {/* <AdditionalInfo /> */}
       <Contact />
     </div>
   );

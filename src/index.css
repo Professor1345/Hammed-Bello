@@ -229,7 +229,13 @@
   }
 
   .contactContent {
-    @apply flex flex-wrap;
+    @apply flex flex-col;
     @apply py-6 px-4;
+  }
+
+  .contactOpenLink {
+    @apply text-[rgb(217,197,145)];
+    @apply hover:invert;
+    /* @apply mx-0 sm:mx-5; */
   }
 }

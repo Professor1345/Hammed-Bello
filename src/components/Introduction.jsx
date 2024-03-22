@@ -35,7 +35,7 @@ const Introduction = () => {
           className="text-[rgb(217,197,145)] hover:invert"
           target="_blank"
           rel="noreferrer"
-          download="Hammed Bello.pdf"
+          download="Hammed O Bello.pdf"
         >
           View
         </a>

@@ -85,6 +85,11 @@ export const Skill = [
   },
 
   {
+    id: "nextjs",
+    title: "NEXTJS",
+  },
+
+  {
     id: "vite",
     title: "VITE",
   },

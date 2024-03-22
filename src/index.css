@@ -26,6 +26,8 @@
     @apply p-3 sm:p-4 md:p-5;
     @apply text-2xl sm:text-3xl md:text-5xl;
     @apply border-y-2 border-solid;
+    @apply sticky top-0;
+    @apply bg-[rgb(45,44,41)];
     /* @apply font-Grandstander; */
   }
   .title {

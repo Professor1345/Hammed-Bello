@@ -1,5 +1,5 @@
 // import React from 'react'
-import resume from "../assets/resume/Hammed Bello CV.pdf";
+import resume from "../assets/resume/Hammed O Bello CV.pdf";
 const Introduction = () => {
   return (
     <div className="intro">
@@ -26,12 +26,12 @@ const Introduction = () => {
           className="text-[rgb(217,197,145)] hover:invert"
           target="_blank"
           rel="noreferrer"
-          download="Hammed Bello.pdf"
+          download="Hammed O Bello.pdf"
         >
           Download
         </a>{" "} / {" "}
         <a
-          href="https://drive.google.com/file/d/1ialGhnAGCC6mn6XxjbpQAkzO8hM5jEWE/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1f7YUsadAThZ06u8RBVdlUY-GzL3aw4vh/view?usp=drive_link"
           className="text-[rgb(217,197,145)] hover:invert"
           target="_blank"
           rel="noreferrer"

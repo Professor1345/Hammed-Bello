@@ -193,6 +193,24 @@ export const workExperience = [
 ];
 
 export const Project = [
+  // {
+  //   id: "islamic-counter",
+  //   title: "ON - Ecommerce Web App",
+  //   link: "https://islamic-counter.vercel.app/",
+  //   details:
+  //     "It is an ecommerce platform specializing in the sale of sneakers. One standout feature of this web app is, its ability to retain items in the cart even after closing the browser. This convenient functionality allows users to add items to their cart and pick up where they left off at a later time, without losing their selections.",
+  //   tools: [
+  //     "ReactJS",
+  //     "TailwindCSS",
+  //     "Vite",
+  //     "Git",
+  //     "Github",
+  //     "Javascript",
+  //     "localStorage",
+  //     "Vercel",
+  //   ],
+  // },
+
   {
     id: "sneakers",
     title: "Sneakers - Ecommerce Web App",

@@ -370,8 +370,8 @@ export const contactDetails = [
   {
     id: "linkedin",
     title: "LinkedIn",
-    link: "https://www.linkedin.com/in/bello-hammed-752854151",
-    openLink: "https://www.linkedin.com/in/bello-hammed-752854151",
+    link: "https://www.linkedin.com/in/bello-hammed",
+    openLink: "https://www.linkedin.com/in/bello-hammed",
   },
   {
     id: "github",
